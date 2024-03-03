@@ -50,6 +50,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Home | what did i press?</title>
+</svelte:head>
+
 <div class="w-full h-[calc(100vh-8rem)] flex flex-col justify-center items-center">
 	<div id="pressed">
 		<p class={keyPress != '' ? 'text-4xl my-2' : 'text-3xl my-2'}>
